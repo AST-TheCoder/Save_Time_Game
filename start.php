@@ -9,8 +9,8 @@
     <h1>Save Time</h1><br>
     <label for="name">Name:</label><br>
     <input type="text" name="name" id="" placeholder="Enter your name" required>
-    <label for="gr_size">Grid size:</label><br>
-    <input type="number" min="2" max="5" name="gr_sz" id="" placeholder="Enter your preferred grid size" required>
+    <label for="gr_size">Level (1 to 4):</label><br>
+    <input type="number" min="1" max="4" name="gr_sz" id="" placeholder="Enter your preferred level" required>
     <br><br>
     <button name="start">Start</button><br><br>
   </form>
