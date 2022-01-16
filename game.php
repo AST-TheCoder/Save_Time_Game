@@ -44,8 +44,8 @@
 	</table>
 	<br>
 	<form action="result.php" method="POST">
-	    <label for="res"><?php echo $name?>, write your answer</label><br>
-	    <input type="text" name="res" id="" placeholder="Enter your answer" required>
+	    <label for="res"><?php echo $name?>, write your answer (L, R, U or D)</label><br>
+	    <input type="text" name="res" id="" placeholder="Enter your answer" pattern="[LRUD]{1,}" required>
 	    <br><br>
 	    <button>Let's check!</button><br><br>
   	</form>
