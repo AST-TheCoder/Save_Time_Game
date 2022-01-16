@@ -2,7 +2,9 @@
 form {
   border: 3px solid #f1f1f1;
   align-content: center;
-  width: 300px;
+  width: 350px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin: auto;
 }
 
