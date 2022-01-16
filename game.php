@@ -12,6 +12,7 @@
 
 		$name=$_POST['name'];
 		$gr_sz=$_POST['gr_sz'];
+		$gr_sz=$gr_sz+1;
 		$sz=$gr_sz*$gr_sz;
 
 		mysqli_query($conn, "DELETE FROM info;");
